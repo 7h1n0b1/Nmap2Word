@@ -4,6 +4,7 @@ Convert Nmap's XML output to MS Word table format.
 # Usage
 Simply download the python file and run it with python3.
 > git clone https://github.com/7h1n0b1/Nmap2Word.git
+
 > pip install -r requirements.txt
 
 There are 2 ways in which you may proceed. 
