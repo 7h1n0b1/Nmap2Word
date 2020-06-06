@@ -7,6 +7,10 @@ Simply download the python file and run it with python3.
 
 > pip install -r requirements.txt
 
+> python3 nxml.py
+
+*Or you can simply run the nxml.exe*
+
 There are 2 ways in which you may proceed. 
 - Initiate a Nmap Scan
 - Use XML output report of a previous scan
