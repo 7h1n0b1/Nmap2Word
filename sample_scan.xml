@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="file:///G:/setups/PentestBox/bin/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Tue Mar 20 17:09:33 2018 as: G:\\setups\\Nmap\\nmap.exe -p 21,22,23,80,443,8080,3389 -iL C:\\Users\\Desktop\\NmapScnas\\scan.txt -oA 5thfloorScan -->
+<nmaprun scanner="nmap" args="G:\\setups\\Nmap\\nmap.exe -p 21,22,23,80,443,8080,3389 -iL C:\\Users\\Desktop\\NmapScnas\\scan.txt -oA 5thfloorScan" start="1521551373" startstr="Tue Mar 20 17:09:33 2018" version="6.47" xmloutputversion="1.04">
+    <scaninfo type="syn" protocol="tcp" numservices="7" services="21-23,80,443,3389,8080" />
+    <verbose level="0" />
+    <debugging level="0" />
+    <host starttime="1521551373" endtime="1521551416">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.1" addrtype="ipv4" />
+        <address addr="00:09:E3:FF:FC:28" addrtype="mac" vendor="Angel Iglesias S.A." />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="closed" reason="reset" reason_ttl="255" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="closed" reason="reset" reason_ttl="255" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="closed" reason="reset" reason_ttl="255" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="closed" reason="reset" reason_ttl="255" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="closed" reason="reset" reason_ttl="255" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="closed" reason="reset" reason_ttl="255" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="closed" reason="reset" reason_ttl="255" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="3315" rttvar="6261" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551417">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.39" addrtype="ipv4" />
+        <address addr="1C:66:6D:FE:2F:AE" addrtype="mac" vendor="Hon Hai Precision Ind.Co.Ltd" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="0" rttvar="5000" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551416">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.51" addrtype="ipv4" />
+        <address addr="00:0A:59:F4:F2:FE" addrtype="mac" vendor="HW server" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="4950" rttvar="8107" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551417">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.62" addrtype="ipv4" />
+        <address addr="3C:D9:2B:6A:01:03" addrtype="mac" vendor="Hewlett-Packard Company" />
+        <hostnames>Windows</hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="open" reason="syn-ack" reason_ttl="128" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="3875" rttvar="11500" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551417">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.64" addrtype="ipv4" />
+        <address addr="3C:D9:2B:54:81:0B" addrtype="mac" vendor="Hewlett-Packard Company" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="open" reason="no-response" reason_ttl="0" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="open" reason="syn-ack" reason_ttl="128" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="open" reason="no-response" reason_ttl="0" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="3875" rttvar="11500" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551416">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.76" addrtype="ipv4" />
+        <address addr="00:0A:59:F4:F5:1E" addrtype="mac" vendor="HW server" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="4331" rttvar="7485" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551416">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.91" addrtype="ipv4" />
+        <address addr="00:23:24:69:6C:8F" addrtype="mac" vendor="G-pro Computer" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="closed" reason="reset" reason_ttl="128" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="closed" reason="reset" reason_ttl="128" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="closed" reason="reset" reason_ttl="128" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="closed" reason="reset" reason_ttl="128" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="closed" reason="reset" reason_ttl="128" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="open" reason="syn-ack" reason_ttl="128" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="closed" reason="reset" reason_ttl="128" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="4630" rttvar="7630" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551417">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.118" addrtype="ipv4" />
+        <address addr="00:C0:EE:88:39:7E" addrtype="mac" vendor="Kyocera" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="open" reason="syn-ack" reason_ttl="64" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="4126" rttvar="8745" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551417">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.120" addrtype="ipv4" />
+        <address addr="74:46:A0:AE:79:0F" addrtype="mac" vendor="Hewlett Packard" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="closed" reason="reset" reason_ttl="128" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="2000" rttvar="7750" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551417">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.131" addrtype="ipv4" />
+        <address addr="68:F7:28:42:83:9E" addrtype="mac" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="open" reason="syn-ack" reason_ttl="128" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="2000" rttvar="7750" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551417">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.137" addrtype="ipv4" />
+        <address addr="3C:D9:2B:67:11:54" addrtype="mac" vendor="Hewlett-Packard Company" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="open" reason="syn-ack" reason_ttl="128" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="3875" rttvar="11500" to="100000" />
+    </host>
+    <host starttime="1521551373" endtime="1521551417">
+        <status state="up" reason="arp-response" reason_ttl="0" />
+        <address addr="10.142.12.172" addrtype="ipv4" />
+        <address addr="00:C0:EE:88:47:E8" addrtype="mac" vendor="Kyocera" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="filtered" reason="no-response" reason_ttl="0" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="closed" reason="reset" reason_ttl="64" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+        <times srtt="2690" rttvar="6437" to="100000" />
+    </host>
+    <host starttime="0" endtime="0">
+        <status state="up" reason="localhost-response" reason_ttl="0" />
+        <address addr="10.142.12.133" addrtype="ipv4" />
+        <hostnames></hostnames>
+        <ports>
+            <port protocol="tcp" portid="21">
+                <state state="unknown" reason="no-response" reason_ttl="0" />
+                <service name="ftp" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="22">
+                <state state="unknown" reason="no-response" reason_ttl="0" />
+                <service name="ssh" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="23">
+                <state state="unknown" reason="no-response" reason_ttl="0" />
+                <service name="telnet" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="80">
+                <state state="unknown" reason="no-response" reason_ttl="0" />
+                <service name="http" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="443">
+                <state state="unknown" reason="no-response" reason_ttl="0" />
+                <service name="https" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="3389">
+                <state state="unknown" reason="no-response" reason_ttl="0" />
+                <service name="ms-wbt-server" method="table" conf="3" />
+            </port>
+            <port protocol="tcp" portid="8080">
+                <state state="unknown" reason="no-response" reason_ttl="0" />
+                <service name="http-proxy" method="table" conf="3" />
+            </port>
+        </ports>
+    </host>
+    <runstats>
+        <finished time="1521551417" timestr="Tue Mar 20 17:10:17 2018" elapsed="45.00" summary="Nmap done at Tue Mar 2 17:10:17 2020; 54 IP addresses (13 hosts up) scanned in 45.00 seconds" exit="success" />
+        <hosts up="13" down="41" total="54" />
+    </runstats>
+</nmaprun>
