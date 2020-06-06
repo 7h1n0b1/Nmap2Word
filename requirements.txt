@@ -1,0 +1,6 @@
+document==1.0
+docx==0.2.4
+lxml==4.5.1
+Pillow==7.1.2
+python-docx==0.8.10
+python-libnmap==0.7.0
